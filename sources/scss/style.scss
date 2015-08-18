@@ -1,0 +1,10 @@
+@import 'bootstrap/bootstrap';
+@import 'bootstrap/bootstrap-extend';
+
+//GLOBALS
+@import 'globals/padding-margin';
+@import 'globals/helpers';
+@import 'globals/theme-global';
+
+//IMPORT PARTIAL VIEWS SCSS
+@import 'partials/views/page';

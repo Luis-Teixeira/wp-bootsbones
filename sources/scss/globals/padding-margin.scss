@@ -1,0 +1,15 @@
+$values: ('0','2','5','10','15','20','25','30','35','40','45','50','55','60','65','70','75');
+
+@for $i from 1 through length($values) {
+  .padding-#{unquote(nth($values, $i))} { padding: unquote(nth($values, $i))+"px" };
+  .padding-t-#{unquote(nth($values, $i))} { padding-top: unquote(nth($values, $i))+"px" };
+  .padding-r-#{unquote(nth($values, $i))} { padding-right: unquote(nth($values, $i))+"px" };
+  .padding-b-#{unquote(nth($values, $i))} { padding-bottom: unquote(nth($values, $i))+"px" };
+  .padding-l-#{unquote(nth($values, $i))} { padding-left: unquote(nth($values, $i))+"px" };
+
+  .margin-#{unquote(nth($values, $i))} { margin: unquote(nth($values, $i))+"px" };
+  .margin-t-#{unquote(nth($values, $i))} { margin-top: unquote(nth($values, $i))+"px" };
+  .margin-r-#{unquote(nth($values, $i))} { margin-right: unquote(nth($values, $i))+"px" };
+  .margin-b-#{unquote(nth($values, $i))} { margin-bottom: unquote(nth($values, $i))+"px" };
+  .margin-l-#{unquote(nth($values, $i))} { margin-left: unquote(nth($values, $i))+"px" };
+}

@@ -1,0 +1,253 @@
+//UI
+.debug {
+  border: 1px solid #f00;
+}
+
+.as-block {
+  display: block;
+}
+
+.as-flex {
+  display: flex;
+}
+
+.as-inline-block {
+  display: inline-block;
+}
+
+.position-rel {
+  position: relative;
+}
+
+.position-abs {
+  position: absolute;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.no-border-radius {
+  border-radius: 0;
+}
+
+.no-border {
+  border: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+
+
+
+
+// FONT
+.font-smoothing {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font-lighter {
+   font-weight: lighter;
+}
+.font-normal {
+   font-weight: normal;
+}
+
+.font-bold {
+   font-weight: bold;
+}
+
+.font-bolder {
+   font-weight: bolder;
+}
+
+.font-sans-serif {
+  family: $font-family-sans-serif;
+}
+
+.font-serif {
+  font-family: $font-family-serif;
+}
+
+.font-size-base {
+  font-size: $font-size-base;
+}
+
+.font-size-large {
+  font-size: $font-size-large;
+}
+
+.font-size-small {
+  font-size: $font-size-small;
+}
+
+.font-size-h1 {
+  font-size: $font-size-h1;
+}
+
+.font-size-h2 {
+  font-size: $font-size-h2;
+}
+
+.font-size-h3 {
+  font-size: $font-size-h3;
+}
+
+.font-size-h4 {
+  font-size: $font-size-h4;
+}
+
+.font-size-h5 {
+  font-size: $font-size-h5;
+}
+
+.font-size-h6 {
+  font-size: $font-size-h6;
+}
+
+.text-no-transform {
+  text-transform: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// COLOR
+
+.color-white {
+  color: #fff;
+}
+
+.color-black {
+  color: #000;
+}
+
+.text-color {
+  color: $text-color;
+}
+
+.gray-base {
+  color: $gray-base;
+}
+
+.bg-gray-base {
+   background-color: $gray-base;
+}
+
+.gray-darker {
+  color: $gray-darker;
+}
+
+.bg-gray-darker {
+   background-color: $gray-darker;
+}
+
+.gray-dark {
+  color: $gray-dark;
+}
+
+.bg-gray-dark {
+   background-color: $gray-dark;
+}
+
+.gray {
+  color: $gray;
+}
+
+.bg-gray {
+   background-color: $gray;
+}
+
+.gray-light {
+  color: $gray-light;
+}
+
+.bg-gray-light {
+   background-color: $gray-light;
+}
+
+.gray-lighter {
+  color: $gray-lighter;
+}
+
+.bg-gray-lighter {
+   background-color: $gray-lighter;
+}
+
+.brand-primary {
+  color: $brand-primary;
+}
+
+.bg-brand-primary {
+   background-color: $brand-primary;
+}
+
+.brand-primary {
+  color: $brand-primary;
+}
+
+.bg-brand-primary {
+   background-color: $brand-primary;
+}
+
+.brand-success {
+  color: $brand-success;
+}
+
+.bg-brand-success {
+   background-color: $brand-success;
+}
+
+.brand-info {
+  color: $brand-info;
+}
+
+.bg-brand-info {
+   background-color: $brand-info;
+}
+
+.brand-warning {
+  color: $brand-warning;
+}
+
+.bg-brand-warning {
+   background-color: $brand-warning;
+}
+
+.brand-danger {
+  color: $brand-danger;
+}
+
+.bg-brand-danger {
+   background-color: $brand-danger;
+}
+
+.no-shadow {
+  box-shadow: 0 0 0 0;
+}
+
+
+//TRANSITIONS
+
+.transition-all,
+.animated {
+  transition: all 250ms;
+}

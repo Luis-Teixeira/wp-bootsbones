@@ -1,0 +1,12 @@
+.btn-primary {
+  &.btn-inverted {
+    background-color: transparent;
+    color: $brand-primary;
+
+    &:hover {
+      background-color: $brand-primary;
+      color: #fff;//$brand-primary;
+    }
+  }
+}
+
