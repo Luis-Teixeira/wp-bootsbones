@@ -31,8 +31,8 @@ $ npm install -g bower
 ### Installation
 clone in theme folder (wordpress/wp-content/themes/)
 ```sh
-$ git clone git@bitbucket.org:luispteixeira/wp-bootsbones-gs.git
-$ cd wp-bootsbones-gs/sources
+$ git clone git@github.com:Luis-Teixeira/wp-bootsbones.git
+$ cd wp-bootsbones/sources
 $ npm install
 $ bower install
 $ grunt
